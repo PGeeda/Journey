@@ -8,21 +8,21 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    
+    color : aliceblue;
 }
 
 .main-1{
-    background-image: url('https://photos.app.goo.gl/CZxGANBqfxRajeAY6');/*('https://www.w3schools.com/howto/img_parallax.jpg');*/
+    background-image: url('https://lh3.googleusercontent.com/pw/AM-JKLW35sig0WM7AtsNO2AW6LnTRWWiRNleWgwj9Wsn6AvP_KfGVTNEBbRu8IiCXLw87GZ38RqFO8cphyq3RZNh_2xZZU6pays52PB3BtD_-F9UFwe0uEi93sDAO8K2LH5sXzzSFmez1clZEARg5pFFF1yS8A=w561-h657-no');/*('https://www.w3schools.com/howto/img_parallax.jpg');*/
     background-size: cover;
-    padding-top: 25%;
-    padding-bottom: 25%;
+    padding-top: 100%;
+    padding-bottom: 100%;
 }
 
 .main-2{
     background-image: url('https://st3.depositphotos.com/1009645/18441/i/1600/depositphotos_184418986-stock-photo-hiker-woman-standing-on-top.jpg');
     min-height: 100%;
-    padding-top: 15%;
-    padding-bottom: 15%;
+    padding-top: 100%;
+    padding-bottom: 100%;
 }
 .main-container{
     position: relative;
@@ -42,23 +42,23 @@ body{
 .loader-o{
     display: inline-block;
     border-radius: 3vw;
-    border: .5vw solid #000;
-    height: 5vw;
+    border: .8vw solid aliceblue;
+    height: 7vw;
     width: 7vw;
 }
 
 @keyframes progres {
     0%{
-        width: 32vw;
-    }
-    12.5%{
-        width: 30vw;
-    }
-    25%{
         width: 28vw;
     }
-    37.5%{
+    12.5%{
+        width: 26vw;
+    }
+    25%{
         width: 24vw;
+    }
+    37.5%{
+        width: 22vw;
     }
     50%{
         width: 20vw;
