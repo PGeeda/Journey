@@ -31,7 +31,6 @@
         <div class="year-container">
           2015
           <br/>
-          <span class="Caption">Storm Started</span>
         </div>
         <div class="main-2">
     
@@ -274,8 +273,8 @@
                        slides[i].style.display = "none";  
                      }
                      slideIndex1++;
-                     
-                     if (slideIndex1 > slides.length) {slideIndex1 = 1}    
+                     console.log("2017 : "+slideIndex1+" "+slides.length);
+                     if (slideIndex1 >= slides.length) {slideIndex1 = 1}    
                      for (i = 0; i < dots.length; i++) {
                        dots[i].className = dots[i].className.replace(" active", "");
                      }
@@ -365,8 +364,8 @@
                        slides[i].style.display = "none";  
                      }
                      slideIndex2++;
-                     console.log("2017 : "+slideIndex2);
-                     if (slideIndex2 > slides.length) {slideIndex2 = 1}    
+                     console.log("2018 : "+slideIndex2);
+                     if (slideIndex2+1 > slides.length) {slideIndex2 = 1}    
                      for (i = 0; i < dots.length; i++) {
                        dots[i].className = dots[i].className.replace(" active", "");
                      }
@@ -388,6 +387,27 @@
           </div>
         </div>
         <div class="2019-container main main-6">
+          <div class="mySlides4 fade"><img src="https://lh3.googleusercontent.com/pw/AM-JKLXvg0xVl6eBhJZFueJ0PVsPefwwfOD-ENsTaKgZOADXtxo53KOQCiTToaC2VkOMp9kl_nSH2NTA-fg9ZKJSM3WtOLcvH6tzBcIZX9hNJZyK6qa_3k1IwUeyP7eodhxAgMKWSODQfarjkAvX3lD0lkgWTA=w1080-h809-no" alt=""/></div>
+          <div class="mySlides4 fade"><img src="https://lh3.googleusercontent.com/pw/AM-JKLU8TJq201wy8V-YFNh0Eah4qssX98JyET8x8bGGc3Lo13Pi9A2m_4xV2T2g6TiT_OO3LxiRd5nWTD5DcPyW6wI1ogyi-8qXC7TNKkH2g2BsEgLPWUmB4ThbwhjF1kfi1t5Gqz2pU8NZxOL-0Zz_cMMzVQ=w1082-h1625-no" alt=""/></div>
+          <div class="mySlides4 fade"><img src="https://lh3.googleusercontent.com/pw/AM-JKLUGuZ3-QaDuzwEozebzmKQZZSrHHKnF4FvLujgke4gzMKqXxzpTAZSLqsQuUf6t6tf0Z2vP_-KPpjZMtDTo310xx2kd2MBXd9qfPz9UlTaetSxy13XVfjoomPE4cb3WS9bR3F2F0l8S-VMATvSV6nBckA=w1082-h722-no" alt=""/></div>
+          <div class="mySlides4 fade"><img src="https://lh3.googleusercontent.com/pw/AM-JKLXtQJX4Q2H6OSPfirsvPu3fm7nRi4Gr2wfxhNeuxgjboIXFy_GfE9OYuLBSmHG7FGUEHS_fN-MbHC_Arix8Tqp81Ij08kqe-YrYoa1j1lqzb0MLAQNU0usUjE_b8uPF2VedTSLgFsS_Uk-YfQaE01wVQA=w1040-h780-no" alt=""/></div>
+          <div class="mySlides4 fade"><img src="https://lh3.googleusercontent.com/pw/AM-JKLW_WKIJwwoBAmPodvVy0bFQKiiJvIWz4r7whw0C9Zw7oP1VpGaCEV2tD8Bw6yO9JkJG1o5WX5l3Q2aE6cCAOrQjsccE5tdlQFgb9d42O33grP6RYMOnwAC9uoIyfUoEcOchNnv71kMp57wq8LiZJANEFA=w1082-h494-no" alt=""/></div>
+          <div class="mySlides4 fade"><img src="https://lh3.googleusercontent.com/pw/AM-JKLVjzJUM_4l9DDxq0VRGn4IDZh0nBEXpmXpDCD4Z7ykGfQzXcsUu98wfssvd2EzG4wA836TwGyehpT40nQQAnJLG4jqnXn9cJQqQZWewc7sX-uhYuXXSxs-ubwO2VI4IhJniBteN4etWHYg2VYPcDXcRzw=w1082-h497-no" alt=""/></div>
+          <div class="mySlides4 fade"><img src="https://lh3.googleusercontent.com/pw/AM-JKLWBjq_C7FOAGOtT-_4XzeiFY-xYNVsOiQ5P_Ie6buApAzh04zxRENaUij71DEb3pPFhg3ywMkLCoPS2p8k9WDTfK1hZTRV_xV09Pv4xL5GnT-WiCZHE3l2-gLMrxxOp8vqyYkKgnyZvOrxSOf7SzHsu_w=w300-h657-no" alt=""/></div>
+          <div class="mySlides4 fade"><img src="https://lh3.googleusercontent.com/pw/AM-JKLUC--xWYehhjMxZ0Ow_ySJyVVARunyFADKcFmJZpY7kdw_LKgveL3wElCM-tG73xudE6E9RJRqZ860f-ENkOZLWY6AAj7sBVSs5ZWStGh8NQ3Z-Crux0u81t6y7PAMy-OIA8jQCGSSznmzBeZ4XC-qAXA=w1080-h1090-no" alt=""/></div>
+          
+          <br>
+               
+          <div style="text-align:center">
+            <span class="dot4" onclick="currentSlide(1)"></span> 
+            <span class="dot4" onclick="currentSlide(2)"></span> 
+            <span class="dot4" onclick="currentSlide(3)"></span> 
+            <span class="dot4" onclick="currentSlide(4)"></span> 
+            <span class="dot4" onclick="currentSlide(5)"></span> 
+            <span class="dot4" onclick="currentSlide(6)"></span> 
+            <span class="dot4" onclick="currentSlide(7)"></span> 
+            <span class="dot4" onclick="currentSlide(8)"></span> 
+          </div>
           <script>
             var slideIndex3 = 0;
             showSlides3();
@@ -400,7 +420,8 @@
                 slides[i].style.display = "none";  
               }
               slideIndex3++;
-              if (slideIndex3 > slides.length) {slideIndex3 = 1}    
+              console.log("2019: "+slideIndex3+" "+slides.length);
+              if (slideIndex3 >= slides.length) {slideIndex3 = 1}    
               for (i = 0; i < dots.length; i++) {
                 dots[i].className = dots[i].className.replace(" active", "");
               }
@@ -409,21 +430,40 @@
               setTimeout(showSlides3, 2000); // Change image every 2 seconds
             }
           </script>          
+        
         </div>
-
         <div class="year-container year-1">
           <div class="box">
             <div class="inner">
-              <span>Infy'20</span>
+              <span>Infy'2020</span>
             </div>
             <div class="inner">
-              <span>2019</span>
+              <span>Infy'2019</span>
             </div>
           </div>
         </div>
 
         <div class="2020-container main main-6">
           
+          <div class="mySlides5 fade"><img src="https://lh3.googleusercontent.com/pw/AM-JKLUKLvQ6y8zBN7zBEzDSczmtENafSR27FpJp9oawKEsKx1O6kHUGvYwXQpgFfUINgFNHgFiIXJU8VOWaE5FlwnT5D5GcK5ES5DB0_57PDCPPsejSBX3TpVeKby6xaQYT_Ur0IxiZH2SHLn5drzV-PN668A=w1080-h1072-no" alt=""/></div>
+          <div class="mySlides5 fade"><img src="https://lh3.googleusercontent.com/pw/AM-JKLWPoMZnCL9Gipqg4-4q3Bx4hhKXcj7LT1zjqkgDPFu-09eRzst6OT_WOFuuHSunfm_QcTykRK4-SUtVgQek8J7LfXsp7PFvUDK9S2yCWG6J5LGfIRP0jrw59Tz05YI8w5MXrPWhueJSNkpE-TsDUDkBTg=w1082-h1444-no" alt=""/></div>
+          <div class="mySlides5 fade"><img src="https://lh3.googleusercontent.com/pw/AM-JKLWzk9veWR2M_5CSV_lK8e3TWNGLq1HwnVtHFv0Q3JByDfA-dEUdc0vJ5kDSE1s1DSqJFzOp0nic6e-A1aPBKgOH0wbiVWzI3BkiWrfBIkigrzRP3RbcEngt9jBTC8GhwUxw3IXoIVZrSEbp4I__OeZ_og=w1080-h489-no" alt=""/></div>
+          <div class="mySlides5 fade"><img src="https://lh3.googleusercontent.com/pw/AM-JKLU7O8DuwYODMBIcZEnR57xepHDa6FuEI1czN38RGYfpNTyjDbP9r_R2QMWd_CnnDrc69pqW4ZQGjWY38YnLoS1L-WQyUTcwFGWfTxgbM6tzgwHET2STuZ02QS_SxiV9rcPOnuIAcuwLJuCbgWJ1xCuWag=w1080-h574-no" alt=""/></div>
+          <div class="mySlides5 fade"><img src="https://lh3.googleusercontent.com/pw/AM-JKLWOzPZQTisuoNLZlvkXFoe_D8uSJ13g2yqhBL0w5eERosZNgbW1sg2tsp2X4rurFTNhekuxPf_N_WYJqBQ1tx40WzuRI3KGj1MR1EaVDnHDBkB-Gz_moIwEehqp38X1LJtamQDMQVuZrM_SyS5Bp41rSw=w987-h2137-no" alt=""/></div>
+          <div class="mySlides5 fade"><img src="https://lh3.googleusercontent.com/pw/AM-JKLXbfLtUr9zJEi30mmKI0nriPm1AVoTO-nfSbRi9Ph0lEcksObLJwNmLtFuG5izs0nGipOk_12h_KoaIhG4zsmoenQQX6-wZEazf9y74-05HUBTiLnp6YL9xt3bxDuMYz_DPCorlNz6T0cV0u04A1Kl7wA=w1080-h989-no" alt=""/></div>
+          <div class="mySlides5 fade"><img src="https://lh3.googleusercontent.com/pw/AM-JKLUuHg_VEkRzm8p5BrzYA9J_fdk7-MoTeIqDltXQofKzV7B2y0aNGEa6qMJkmUNtD1ICJo6wGz3C0oRn344ud3nOYR3IGlVDAaMY0bcFfGIN7r5xWI8eqB8Nit_Nub35sAGndBninezWiQ1rzdPeRiEMRA=w1080-h1083-no" alt=""/></div>
+          
+          <br/>
+          <div style="text-align:center">
+            <span class="dot5" onclick="currentSlide(1)"></span> 
+            <span class="dot5" onclick="currentSlide(2)"></span> 
+            <span class="dot5" onclick="currentSlide(3)"></span> 
+            <span class="dot5" onclick="currentSlide(4)"></span> 
+            <span class="dot5" onclick="currentSlide(5)"></span> 
+            <span class="dot5" onclick="currentSlide(6)"></span> 
+            <span class="dot5" onclick="currentSlide(7)"></span> 
+          </div>
+
           <script>
             var slideIndex4 = 0;
             showSlides4();
@@ -442,9 +482,71 @@
               }
               slides[slideIndex4-1].style.display = "block";  
               dots[slideIndex4-1].className += " active";
-              setTimeout(showSlides3, 2000); // Change image every 2 seconds
+              setTimeout(showSlides4, 2000); // Change image every 2 seconds
             }
           </script>  
         </div>
+
+        <div class="year-container year-1">
+          <div class="box">
+            <div class="inner">
+              <span>Moments</span>
+            </div>
+            <div class="inner">
+              <span>Memories</span>
+            </div>
+          </div>
+        </div>
+        <div class="memories-container main main-7">
+          <div class="mySlides6 fade"><img src="https://lh3.googleusercontent.com/pw/AM-JKLXi5Dn8Tz6pVIxfJS6CDEl0n8Tv7f0wxu56w-GTE7SlfKgXit2Yui5B25_qKmOzQgk14eJpw0vuf_b6xKzIFLsUtfagpNCAXJpbQ5s111Q_fClcCUNcGc3DnNeB0dub0MBuyL91CXpugUvGCumKss9Vyw=w1082-h722-no" alt=""/></div>
+          <div class="mySlides6 fade"><img src="https://lh3.googleusercontent.com/pw/AM-JKLX8IpPJSjedp0LA9rg4tDbw1xLFDW29ZGwI1NP-6xNrsCXNbcK774YmjXBcsVG6FrgK_Xof57gXv5a_5_FXItLRR2sAASrgQVbrTucq_rlqDiZej4hGwWvAxTVq4G5xznSuAkcPT27E-Av_mdHQRcAI0w=w1082-h722-no" alt=""/></div>
+          <div class="mySlides6 fade"><img src="https://lh3.googleusercontent.com/pw/AM-JKLWLTgN-sNm38FaYI1Vl-ABPjy7h3NDeWyn6_D2PuQsmvstJck5KZ7QlR302A_wU0POhD6wJONDQwh05Y4SIpAnwJJZD6jCWGUT36UCdATcc8Ex0qv7qaKQAYLnhFIXMc1GcXgQl2otTtuOcqAt9qi228Q=w1082-h722-no" alt=""/></div>
+          <div class="mySlides6 fade"><img src="https://lh3.googleusercontent.com/pw/AM-JKLXFwGfMckUyW7S4p3X6JxqoNBk67jS5uegkhHg8rgJqrDHe2MAMsfdjOCO3qGEXMRNZgO_ZN9QG49shoN9O-6YgELAlEHxcJvuFfIry8gFDVV1iQ9dYV2SkF1hW9_owXFT5URfMFVyPeCvtiemz2DV_bw=w1082-h812-no" alt=""/></div>
+          <div class="mySlides6 fade"><img src="https://lh3.googleusercontent.com/pw/AM-JKLWMk0I4oKGTCxOINnHKVoAZWuvKphemCebM2RY2uRyk5GShiHWlxDvWlJbUhEQfXRmVpK8X1R8RqaoOqdIg7fER3-i2n8sQJDKzA0IgTVSXA-MXiYREZ7yQY6TYLT_UBQ2fzJDcVPz_B0RKz8Gtt1tiRw=w1082-h609-no" alt=""/></div>
+          <div class="mySlides6 fade"><img src="https://lh3.googleusercontent.com/pw/AM-JKLWZZIXs-JHXWGLTrtkI62ccBOjlvz7oRn8BaVI8SCfQZ8Pia7SRfKQiei3jLYJ8n1SvWDe7bIBd-IFCkJV6CcukxnazZOt0K3O-v3ngQZs3aYZqEqP354lRoJREmjKQl51oyW35aOkRggIIK4Z2e4DxdA=w780-h1040-no" alt=""/></div>
+          <div class="mySlides6 fade"><img src="https://lh3.googleusercontent.com/pw/AM-JKLVadYB5_w43XTr5i-qJtDAhgoA78azAFnuQun2PtNg09h9HkzSr9ckFI12oCshEfXKwar76W2AzjCly92K-imshgnuEWuTodcq1CUTJKHPT7Z7hnMHZLiK4JxjFR613_kTL9nVHXwNu2049Um4z5Ozz6g=w1040-h585-no" alt=""/></div>
+          <div class="mySlides6 fade"><img src="https://lh3.googleusercontent.com/pw/AM-JKLUii6IRuM3xNB463MNEuiJdTjLnOAT8a4H6kWb-RvXccMdNTUYVLie21PHIkfzN5zmQcfl5pMG8ukbxzRXvo4bZNCFCSJDipw5w1ZgG4-V0Eh9YoEmViaW2eGYYr-YVuPpnKu2AFV_kStKrWibSxiBbsA=w960-h1280-no" alt=""/></div>
+          <div class="mySlides6 fade"><img src="https://lh3.googleusercontent.com/pw/AM-JKLWpuME9fhXvxCf11fu4VOUg6bPruDRcEK3H4SY_qrs1t7K6TyVCc87jxjqBZ9IJOgSQuTPtguRMIs3dfl6cgz-cmK8Qbg_1SA91wo4SV2xe0WI5u2Pxigh-ZyuP-qN85qN9A-VMPaRjSeP1Z6qiakGsug=w1082-h609-no" alt=""/></div>
+          <div class="mySlides6 fade"><img src="https://lh3.googleusercontent.com/pw/AM-JKLUI2QWgmWPdSQonkQrYVbFZzM4ux1f43XntE3aJ-JW_ZiMl3CGtXjBno6CHkDVSmyFTUweQd9PkvkT9DMWf5xn2m4eD7sSoxnzSR7X3QZ4Klw96X8w-AEAXIjB2fRexJIvIKz8QVCTb3g10d40rlVbAcA=w1080-h1075-no" alt=""/></div>
+          <div class="mySlides6 fade"><img src="https://lh3.googleusercontent.com/pw/AM-JKLVqYS_zBRvbUo2QwieEDKmhMWhD5e6qWzoij1q5NmRQuIx3o8Pz5ZrUucjCWdgeJVAkTACuHZg5DKoQ79_neRINrBkoJO4ToBK0J-pKtbNjnP1Zb0uM9XIRBaNVy6kf99--g4nsfyK1Zgc3hAsKzcOr9g=w1082-h609-no" alt=""/></div>
+          <br/>
+
+          <div style="text-align: center;">
+            <span class="dot6" onclick="currentSlide(1)"></span>
+            <span class="dot6" onclick="currentSlide(2)"></span>
+            <span class="dot6" onclick="currentSlide(3)"></span>
+            <span class="dot6" onclick="currentSlide(4)"></span>
+            <span class="dot6" onclick="currentSlide(5)"></span>
+            <span class="dot6" onclick="currentSlide(6)"></span>
+            <span class="dot6" onclick="currentSlide(7)"></span>
+            <span class="dot6" onclick="currentSlide(8)"></span>
+            <span class="dot6" onclick="currentSlide(9)"></span>
+            <span class="dot6" onclick="currentSlide(10)"></span>
+            <span class="dot6" onclick="currentSlide(11)"></span>
+          </div>
+
+          <script>
+            var slideIndex5 = 0;
+            showSlides5();
+            
+            function showSlides5() {
+              var i;
+              var slides = document.getElementsByClassName("mySlides6");
+              var dots = document.getElementsByClassName("dot6");
+              for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+              }
+              slideIndex5++;
+              if (slideIndex5 > slides.length) {slideIndex5 = 1}    
+              for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex5-1].style.display = "block";  
+              dots[slideIndex5-1].className += " active";
+              setTimeout(showSlides5, 2000); // Change image every 2 seconds
+            }
+          </script>  
+        </div>
+
     </body>
 </html>
