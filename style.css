@@ -18,20 +18,20 @@ img{
 }
 
 .main-1{
-  background-image: url('https://lh3.googleusercontent.com/pw/AM-JKLV_u06iK8Sw9yIgkuxTmXOPyM3xu28Y-LsmTnWYuBoyxKAh8eGphYYCYeipNMcukS6Zc8J2VXz_DIZ9kEtjmjHVjheihPJOiQBb4VKpBvRLMMgLDV1INeFtc35_038sKyDJG_VOSqQGmNf27BNmu6mEXg=w437-h657-no');
+  background-image: url('https://lh3.googleusercontent.com/pw/AM-JKLVdtIqS1HKhMTxlXLvEUfhvXB9nIdnIirEM4vYujLsEo4o8NzlUscFn_6H8SKduoLiX2XlQZwBBIUDoYEMGPGgCB6IHfdHo--8lKHa24aXwzbcg91KEFZ346tcidl6CFnWl3GlSgY3X0NZngFyohEwNRQ=w1082-h1825-no?authuser=0');
   background-size: cover;
 }
 
 .main-2{
-  /*background-image: url('https://lh3.googleusercontent.com/pw/AM-JKLU-JY9i1qEkyVuiZmsIIo_g62if09DhgMTCksSEJGvnMPzk2w2NViq8_tUrrB9AW5ybK_PfpzHxog0OVrKY96uQjzaaVCjdQOYlVnPfK94PJk6rCCmPfJUWw5B-5OSpKODF4RFXwhe4JNxPovuRlP1ofQ=w279-h657-no');
-  */min-height: 1642px;
+  background-image: url('https://lh3.googleusercontent.com/pw/AM-JKLWSJEcaoiiv--u6NaNWYxo6xaDNS3lpM9sC6JyA-B9Ix8aAtGXxG9wQXzmmyW_zkKdnYnuanBLjOaPTwKm2AT8wFtmPBkMirDFjJHrwTTU1YSgerW5Ilz6VGnOmdkxNUH42cm7dC4mwt7LRXOJ7AoJ5Gw=w1080-h1440-no?authuser=0');
+  min-height: 1642px;
   padding: 10% 0 10% 0;
 }
 
 .main-3{
-/*background-image: url('https://thumbs.dreamstime.com/b/abstract-texture-black-blue-white-green-color-watercolor-transparent-background-130465326.jpg');
-  */
-  background-color: azure;
+background-image: url('https://lh3.googleusercontent.com/pw/AM-JKLVCcmbFEd-wDvwDj1QEtXPv2u3OxkektfL42PPBZKdBdTYbLLNlFQlWqEqtvHu7a2rq5FZkEKA_2-cUeT6b9KG-mqpGAg0Yuap4d-N67jUAdtD1AZeNbLx37ROe2Yr0T7t2yBDTcGkZ8QdS91HDGvLbfQ=w1080-h1440-no?authuser=0');
+
+/*  background-color: azure;*/
   background-size: cover;
   padding: 20% 0 50% 0;
 }
@@ -40,18 +40,19 @@ img{
 background-image: url('https://lh3.googleusercontent.com/pw/AM-JKLV_u06iK8Sw9yIgkuxTmXOPyM3xu28Y-LsmTnWYuBoyxKAh8eGphYYCYeipNMcukS6Zc8J2VXz_DIZ9kEtjmjHVjheihPJOiQBb4VKpBvRLMMgLDV1INeFtc35_038sKyDJG_VOSqQGmNf27BNmu6mEXg=w437-h657-no');
 /*background-color: snow;*/
 background-size: cover;
- padding: 20% 0 50% 0;
+ padding: 20% 0 50% 5%;
 }
 .main-5{
-background-image: url('https://thumbs.dreamstime.com/b/abstract-texture-black-blue-white-green-color-watercolor-transparent-background-130465326.jpg');
+  background-image: url('https://lh3.googleusercontent.com/pw/AM-JKLWSJEcaoiiv--u6NaNWYxo6xaDNS3lpM9sC6JyA-B9Ix8aAtGXxG9wQXzmmyW_zkKdnYnuanBLjOaPTwKm2AT8wFtmPBkMirDFjJHrwTTU1YSgerW5Ilz6VGnOmdkxNUH42cm7dC4mwt7LRXOJ7AoJ5Gw=w1080-h1440-no?authuser=0');
 background-size: cover;
 padding: 20% 0 20% 5%;
 }
-.main-6{
-background-image: url('https://thumbs.dreamstime.com/b/abstract-texture-black-blue-white-green-color-watercolor-transparent-background-130465326.jpg');
+.main-6,.main-7{
+  background-image: url('https://lh3.googleusercontent.com/pw/AM-JKLVCcmbFEd-wDvwDj1QEtXPv2u3OxkektfL42PPBZKdBdTYbLLNlFQlWqEqtvHu7a2rq5FZkEKA_2-cUeT6b9KG-mqpGAg0Yuap4d-N67jUAdtD1AZeNbLx37ROe2Yr0T7t2yBDTcGkZ8QdS91HDGvLbfQ=w1080-h1440-no?authuser=0');
 background-size: cover;
-padding: 83% 0 82% 0;
+padding: 20% 0 20% 5%;
 }
+
 
 .main-container{
   position: relative;
@@ -318,7 +319,7 @@ top: 0;
 }
 
 /* The dots/bullets/indicators */
-.dot, .dot1, .dot3 {
+.dot, .dot1, .dot3, .dot4, .dot5 {
 height: 15px;
 width: 15px;
 margin: 0 2px;
@@ -442,7 +443,7 @@ animation-delay: 8s;
 }
 
 .box .inner {
-  width: 250px;
+  width: 300px;
   height: 150px;
   line-height: 150px;
   font-size: 4em;
